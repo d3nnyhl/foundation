@@ -1,0 +1,54 @@
+{
+	"squat": {
+		"front": {
+			"folder": "squat",
+			"filename": "35578592_655208694814284_5766467389902290944_n",
+			"start_frame": 320,
+			"end_frame": 490
+
+		},
+		"right": {
+			"folder": "squat",
+			"filename": "35579697_1197102320431509_4723951494267666432_n",
+			"start_frame": 182,
+			"end_frame": 319
+		},
+		"back": {
+			"folder": "squat",
+			"filename": "34698054_174586159897943_5864312959722848256_n",
+			"start_frame": 470,
+			"end_frame": 560
+		},
+		"front2": {
+			"folder": "squat",
+			"filename": "output_test_sq2",
+			"start_frame": 265,
+			"end_frame": 315
+		}
+	
+	},
+	"deadlift": {
+		"front": {
+			"folder": "deadlift",
+			"filename": "24127788_132756670772740_19673853613572096_n",
+			"start_frame": 185,
+			"end_frame": 315
+		},
+		"left": {
+			"folder": "deadlift",
+			"filename": "36425870_1890770481223600_3793668578750758912_n",
+			"start_frame": 260,
+			"end_frame": 370
+		}
+	},
+	"benchpress": {
+		"right": {
+			"folder": "benchpress",
+			"filename": "36169627_910548602468548_6532138090297819136_n",
+			"start_frame": 100,
+			"end_frame": 160
+		}
+	
+	}
+
+}
