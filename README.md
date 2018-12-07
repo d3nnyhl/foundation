@@ -1,4 +1,4 @@
-# foundation - DataX Fall 2018
+# foundation - Data X Fall 2018
 
 ## Overview
 
@@ -6,7 +6,7 @@ Many people who enjoy going to the gym wish to improve their technique, but ther
 
 ## Data 
 
-* Original Data Set: 173,000+ videos scraped from Instagram by hashtags.
+* Original Data Set: 173,000+ videos scraped from Instagram
 * Lift Classification Labels: 14,000+
 * Frames used for classification: Over 9.6 million
 * Training/Validation/Test Split Percentages: 75%/15%/10%
