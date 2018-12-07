@@ -35,5 +35,5 @@ Many people who enjoy going to the gym wish to improve their technique, but ther
 ## Acknowledgements
 
 * Course: UC Berkeley IEOR 135 Fall 2018 Applied Data Science with Venture Applications
-* Course Staff: Professor Ikhlaq Sidhu, Professor Alexander Fred-Ojala, GSIs: Sumayah Rahman and Tanya Piplani
+* Course Staff: Instructors: Ikhlaq Sidhu and Alexander Fred-Ojala, GSIs: Sumayah Rahman and Tanya Piplani
 * Project Mentors: Panna Felsen and Heather Lockwood
