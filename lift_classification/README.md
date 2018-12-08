@@ -4,4 +4,6 @@ In the lift classification we used transfer learning where we started with a mod
 
 We then trained our set of images/frames that has been extracted from the videos to teach the model about the new classes that we wanted it to recognize. The three classes are bench press, deadlift, and squat. We decided to use 0.01 learning rate for the classification, with 4000 iterations. The overall accuracy for all frames were 77% while the accuracy for classifying the videos were 80%. The method we used to classify the video is to find the max of the labels predicted. If most of the frames of a video were classified as bench press, then bench press is the winner. 
 
+Portions of these codes are reproduced from work created and shared by Google and used according to terms described in the Apache 2.0 License.
 Source: https://www.tensorflow.org/hub/tutorials/image_retraining
+
