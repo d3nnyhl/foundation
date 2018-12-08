@@ -2,7 +2,7 @@
 
 The `camera_stationary` module has the goal of classifying a video into stationary camera or moving camera based on different heuristics. After setting a threshold for each mode, if the video gets a score lower than the threshold, it's classified as `stationary`, otherwise, it is `moving`. 
 
-### Extracting Frames
+### Frames Extraction
 
 Since we eventually need to sample every video, it is computationally more efficient to extract frames from every video that has a corresponding `composite_json` once, and save it in secondary storage. This way, whenever we run some sort of classification algorithm, we simply need to read the images, rather than sample from the video over and over.
 
@@ -10,5 +10,8 @@ In `Rugby`, the frames of each video will be stored in the directory `/data1/Dat
 
 ### Classification
 
-Two modes of classification are currently being implemented.
-Work in Progress; to be continued...
+Two modes of classification were implemented.
+
+* Take the bitwise-AND of the difference in pixel values in consecutive frames. Find the mean value across the whole image. 
+* Find the median frame (pixel values) of the whole video. Subtract each frame from the median frame.
+
